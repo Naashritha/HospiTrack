@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Doctor Dashboard</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/logout">Logout</a>
+        </nav>
+    </header>
+
+    <section class="dashboard-container">
+        <h2>Patient Management</h2>
+
+        <div class="stats">
+            <div class="card">
+                <h3>Appointments Today</h3>
+                <p>{{ appointments_today }} Appointments</p>
+            </div>
+            <div class="card">
+                <h3>New Patients</h3>
+                <p>{{ new_patients }} Registered</p>
+            </div>
+            <div class="card">
+                <h3>Pending Test Results</h3>
+                <p>{{ pending_tests }} Pending</p>
+            </div>
+        </div>
+
+        <h2>Recent Patient Details</h2>
+        <table>
+            <tr>
+                <th>Patient Name</th>
+                <th>Age</th>
+                <th>Condition</th>
+                <th>Last Visit</th>
+            </tr>
+            {% for patient in recent_patients %}
+            <tr>
+                <td>{{ patient['name'] }}</td>
+                <td>{{ patient['age'] }}</td>
+                <td>{{ patient['condition'] }}</td>
+                <td>{{ patient['last_visit'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <h2>Search Patient Records</h2>
+        <form action="/search_patient" method="post">
+            <input type="text" name="patient_name" placeholder="Enter Patient Name or ID">
+            <button type="submit">Search</button>
+        </form>
+
+        {% if search_result %}
+        <h3>Search Results</h3>
+        <table>
+            <tr>
+                <th>Patient Name</th>
+                <th>Age</th>
+                <th>Condition</th>
+                <th>Last Visit</th>
+            </tr>
+            <tr>
+                <td>{{ search_result['name'] }}</td>
+                <td>{{ search_result['age'] }}</td>
+                <td>{{ search_result['condition'] }}</td>
+                <td>{{ search_result['last_visit'] }}</td>
+            </tr>
+        </table>
+        {% endif %}
+    </section>
+</body>
+</html>

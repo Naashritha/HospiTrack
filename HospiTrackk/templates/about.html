@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HospiTrackk - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background-color: #1976d2;
+            color: white;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        section {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .intro p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 1rem auto;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #1976d2;
+            margin-bottom: 1rem;
+        }
+        
+        .mission {
+            background-color: #e3f2fd;
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+            text-align: center;
+        }
+        
+        .mission h2 {
+            color: #1976d2;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About HospiTrack</h1>
+        <nav>
+            <a href="/"><i class="fas fa-home"></i> Home</a>
+            <a href="/about"><i class="fas fa-info-circle"></i> About</a>
+            <a href="/login"><i class="fas fa-sign-in-alt"></i> Login</a>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Reimagining Healthcare Navigation</h2>
+        <p>HospiTrackk is an innovative platform that empowers patients to make informed healthcare decisions using advanced AI technology, real-time data, and comprehensive hospital analytics.</p>
+    </section>
+
+    <section>
+        <h2>What Makes HospiTrackk Different?</h2>
+        
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🏆</div>
+                <h3>AI-Driven Hospital Rankings</h3>
+                <p>Our proprietary AI algorithms analyze success rates, patient reviews, and facility information to provide objective hospital rankings tailored to your specific needs.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🛏️</div>
+                <h3>Real-Time Availability</h3>
+                <p>Access up-to-the-minute information on bed availability across multiple hospitals, enabling better planning for both scheduled and emergency care.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>Cost Estimation</h3>
+                <p>Get transparent cost estimates based on your treatment needs, insurance coverage, and hospital selection to avoid unexpected medical expenses.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🚑</div>
+                <h3>Emergency Navigation</h3>
+                <p>In critical situations, our emergency feature guides you to the nearest appropriate facility with available capacity and specialized care.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">📅</div>
+                <h3>Direct Appointment Booking</h3>
+                <p>Schedule appointments directly through our platform with seamless integration to hospital booking systems, saving time and reducing administrative hassle.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🌐</div>
+                <h3>Multilingual Support</h3>
+                <p>Break down language barriers in healthcare with our multilingual interface, ensuring all patients can access vital information regardless of their preferred language.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="mission">
+        <h2>Our Mission</h2>
+        <p>At HospiTrackk, we believe everyone deserves access to transparent, reliable healthcare information. Our mission is to reduce uncertainty in healthcare decisions by providing data-driven insights that help patients find the right care at the right time.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 HospiTrackk. All rights reserved.</p>
+        <p>Contact: <a href="mailto:info@hospitrackk.com" style="color: #64b5f6;">info@hospitrackk.com</a></p>
+    </footer>
+</body>
+</html>

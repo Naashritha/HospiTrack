@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - HospiTrackk</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+
+    <section class="login-container">
+        <h2>Select User Type</h2>
+        <a href="/patient_dashboard" class="btn">Patient</a>
+        <a href="/doctor_dashboard" class="btn">Doctor</a>
+        <a href="/admin_dashboard" class="btn">Administrator</a>
+    </section>
+    
+</body>
+</html>

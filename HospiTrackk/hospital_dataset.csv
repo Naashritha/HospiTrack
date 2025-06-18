@@ -1,0 +1,101 @@
+Hospital Name,Doctor Name,Doctor Gender,Specialty,Average Cost ($),Success Rate of Hospital (%),Success Rate of Doctor (%),Hospital Rating,Location,Facilities Rating/Grade
+Wellness Care,Dr. David Wilson,Female,Orthopedics,40715,92.36,84.51,3.4,Houston,A
+Green Valley Medical Center,Dr. Emma White,Female,Orthopedics,21724,89.63,75.58,4.7,Chicago,A+
+Green Valley Medical Center,Dr. James Lee,Male,Neurology,48269,91.67,80.22,5,Houston,C
+LifeLine Hospital,Dr. Emily Davis,Male,Pediatrics,30346,92.28,84.13,3,Chicago,B
+Metro Life Hospital,Dr. Emily Davis,Female,Endocrinology,16009,81.96,86.36,4.8,Philadelphia,C
+Blue Shield Hospital,Dr. Emily Davis,Female,Pediatrics,5917,87.88,77.77,3.8,San Jose,A+
+Sunrise Health Care,Dr. John Smith,Female,Orthopedics,44422,95.15,93.27,4.4,New York,B+
+Global Medics,Dr. David Wilson,Male,Gastroenterology,49309,95.42,88.57,4.1,San Jose,C
+Sunrise Health Care,Dr. Emily Davis,Male,Psychiatry,46512,93.19,77.32,2.6,San Jose,B
+Metro Life Hospital,Dr. Olivia Martinez,Male,Urology,49672,98.05,97.44,4.4,Dallas,A
+LifeLine Hospital,Dr. Emily Davis,Female,Oncology,15938,98.63,82.86,3,Dallas,B
+Metro Life Hospital,Dr. Emma White,Female,Endocrinology,28401,81.86,92.72,3.1,Dallas,B
+Wellness Care,Dr. Sophia Miller,Male,Endocrinology,32437,75.77,84.27,3.1,Dallas,A
+Sunrise Health Care,Dr. Emma White,Male,Oncology,35675,80.76,91.61,3.8,Los Angeles,C
+Green Valley Medical Center,Dr. Olivia Martinez,Female,Orthopedics,11796,96.83,93.71,2.9,San Jose,B
+Apollo Clinic,Dr. Sophia Miller,Female,Gastroenterology,7574,87.43,95.48,3,Chicago,B
+Blue Shield Hospital,Dr. Emily Davis,Male,Neurology,34699,80.66,83.82,3.9,Philadelphia,C
+City Hospital,Dr. Michael Brown,Male,Oncology,17458,77.4,78.36,4.5,San Jose,C+
+Apollo Clinic,Dr. Olivia Martinez,Male,Pediatrics,38963,73.41,78.79,3.4,San Jose,B
+Metro Life Hospital,Dr. Michael Brown,Male,Psychiatry,20420,85.53,91.33,4.4,Phoenix,C+
+Sunrise Health Care,Dr. Sophia Miller,Male,Pediatrics,28319,84.87,95.28,3.4,New York,A+
+Apollo Clinic,Dr. Emma White,Female,Orthopedics,16327,72.63,76.61,4.8,Dallas,C
+Blue Shield Hospital,Dr. James Lee,Female,Gastroenterology,30928,86.8,89.22,4.8,Chicago,B
+Blue Shield Hospital,Dr. John Smith,Female,Gastroenterology,19138,71.63,83.89,4,Phoenix,B
+LifeLine Hospital,Dr. David Wilson,Male,Urology,36415,84.09,86.38,3.5,New York,C+
+Blue Shield Hospital,Dr. James Lee,Male,Dermatology,38806,70.15,82.52,4.7,San Antonio,C
+Sunrise Health Care,Dr. John Smith,Female,Gastroenterology,22551,95.75,97.3,4,Philadelphia,A+
+LifeLine Hospital,Dr. Emma White,Female,Pediatrics,32324,94.38,85.6,3.6,Dallas,B+
+City Hospital,Dr. James Lee,Male,Neurology,33161,82.05,96.06,2.9,New York,B+
+Wellness Care,Dr. Emma White,Female,Dermatology,10090,92.16,78.85,2.8,San Antonio,A
+Global Medics,Dr. James Lee,Male,Neurology,7773,82.12,81.11,4.9,Houston,B+
+Apollo Clinic,Dr. Olivia Martinez,Female,Pediatrics,11567,74.94,80.29,4.1,Dallas,A
+Wellness Care,Dr. Emma White,Female,Urology,15506,96,84.13,3.8,Phoenix,B+
+City Hospital,Dr. Sarah Johnson,Female,Urology,33336,75.56,75.85,4.2,Dallas,C
+Metro Life Hospital,Dr. Michael Brown,Female,Dermatology,9816,84.04,83.1,2.8,San Diego,C
+Tranquil Medical Center,Dr. Olivia Martinez,Male,Orthopedics,47135,76.85,89.8,4.2,San Jose,B
+Green Valley Medical Center,Dr. Olivia Martinez,Male,Orthopedics,32155,79.42,76.87,4.4,Dallas,A
+Wellness Care,Dr. Olivia Martinez,Female,Urology,41559,73.9,91.91,3.5,Philadelphia,A+
+Wellness Care,Dr. David Wilson,Male,Neurology,30109,83.97,95.24,4.2,Los Angeles,C
+Green Valley Medical Center,Dr. Olivia Martinez,Female,Cardiology,35488,96.94,85.28,4.1,San Antonio,C
+City Hospital,Dr. Emily Davis,Male,Pediatrics,22937,80.95,87.3,2.9,Phoenix,A+
+Tranquil Medical Center,Dr. Sarah Johnson,Female,Dermatology,26415,92.51,94.01,3.9,Philadelphia,B
+Green Valley Medical Center,Dr. Emma White,Male,Orthopedics,28925,76.85,93.8,2.6,Houston,A
+Tranquil Medical Center,Dr. Sophia Miller,Male,Endocrinology,6161,80.98,94.17,2.9,Chicago,A+
+Global Medics,Dr. David Wilson,Female,Oncology,24985,75.05,84.61,4.3,New York,C+
+Sunrise Health Care,Dr. Sophia Miller,Female,Urology,34596,71.7,88.59,2.7,San Jose,A+
+Sunrise Health Care,Dr. Daniel Anderson,Female,Pediatrics,20076,71.56,87.5,4.3,Dallas,C
+Green Valley Medical Center,Dr. Emma White,Male,Urology,33378,96.74,88.02,3.3,Phoenix,A+
+Blue Shield Hospital,Dr. Olivia Martinez,Female,Endocrinology,25561,70.14,96.39,3.9,New York,B+
+City Hospital,Dr. Sophia Miller,Female,Orthopedics,9463,84.22,92.73,4.6,Phoenix,C
+Green Valley Medical Center,Dr. David Wilson,Female,Pediatrics,37391,87.83,77.22,3.2,New York,A+
+Tranquil Medical Center,Dr. Emma White,Male,Dermatology,39457,82.71,94.06,4.6,New York,C
+Blue Shield Hospital,Dr. Sophia Miller,Male,Pediatrics,46320,89.78,79.61,3.4,San Diego,C+
+Global Medics,Dr. Daniel Anderson,Male,Pediatrics,17263,78.33,91.22,4.9,Dallas,B+
+Global Medics,Dr. Sarah Johnson,Female,Pediatrics,18614,97.38,88.81,3.1,Houston,A+
+Sunrise Health Care,Dr. Olivia Martinez,Female,Endocrinology,34265,93.82,83.08,3.1,San Antonio,B
+Sunrise Health Care,Dr. John Smith,Female,Psychiatry,6844,92.36,83.93,4.7,San Antonio,B
+Apollo Clinic,Dr. Emily Davis,Female,Pediatrics,28628,83.51,75.98,3.5,Houston,C+
+Wellness Care,Dr. David Wilson,Male,Orthopedics,19918,76.09,94.87,4.6,Philadelphia,B+
+Tranquil Medical Center,Dr. David Wilson,Male,Urology,47114,94.75,90.29,2.9,San Jose,A
+Blue Shield Hospital,Dr. Daniel Anderson,Male,Cardiology,29529,92.76,83.76,3.9,San Jose,B
+City Hospital,Dr. Olivia Martinez,Male,Orthopedics,46092,87.18,96.87,3.8,Los Angeles,A+
+Green Valley Medical Center,Dr. Emma White,Male,Psychiatry,26447,75.41,80.06,3.8,San Antonio,A
+Blue Shield Hospital,Dr. Emily Davis,Female,Dermatology,35618,71.98,94.62,4.2,Dallas,B
+Apollo Clinic,Dr. David Wilson,Male,Urology,48411,88.65,84.06,4.4,San Jose,B
+City Hospital,Dr. Emma White,Male,Psychiatry,24235,71.32,97.96,2.9,Chicago,A
+Wellness Care,Dr. Emma White,Female,Neurology,24260,98.51,92.53,4.5,Dallas,B
+City Hospital,Dr. Daniel Anderson,Female,Neurology,28230,86.16,88.24,2.8,San Antonio,B+
+Wellness Care,Dr. Sarah Johnson,Male,Gastroenterology,30641,84.73,88.8,4,San Jose,C
+Metro Life Hospital,Dr. Sarah Johnson,Male,Endocrinology,33163,79.2,96.49,4.2,Dallas,C+
+Apollo Clinic,Dr. John Smith,Female,Psychiatry,13738,74.52,85.84,2.5,New York,C
+Metro Life Hospital,Dr. John Smith,Female,Oncology,43043,83.4,77.53,3.7,Phoenix,B+
+Wellness Care,Dr. Emily Davis,Male,Cardiology,10579,74.35,83.84,3.3,Philadelphia,A+
+Sunrise Health Care,Dr. Sarah Johnson,Male,Psychiatry,49279,97.46,95.06,3.6,Dallas,C
+Green Valley Medical Center,Dr. Emily Davis,Female,Cardiology,33728,84.83,92.91,4.7,New York,B
+Tranquil Medical Center,Dr. David Wilson,Male,Dermatology,36606,88.82,95.55,3.3,New York,B+
+Metro Life Hospital,Dr. David Wilson,Male,Gastroenterology,14961,91.63,78.39,3.8,San Antonio,B+
+Metro Life Hospital,Dr. Olivia Martinez,Female,Dermatology,13917,96.58,83.57,4,New York,A
+Blue Shield Hospital,Dr. Sophia Miller,Male,Neurology,20463,97.42,86.78,5,San Diego,A
+Sunrise Health Care,Dr. Emily Davis,Male,Oncology,21495,79.56,79.07,4.4,San Jose,B
+Apollo Clinic,Dr. Sarah Johnson,Male,Orthopedics,38795,98.88,89.49,3.8,San Antonio,B+
+Metro Life Hospital,Dr. John Smith,Male,Gastroenterology,38935,91.58,78.9,2.7,San Antonio,A
+Metro Life Hospital,Dr. Emma White,Male,Neurology,41225,75.16,83.31,2.8,San Diego,A+
+Metro Life Hospital,Dr. Emma White,Female,Endocrinology,24194,79.07,91.33,4.8,San Jose,B
+Apollo Clinic,Dr. Emma White,Male,Psychiatry,13360,93.19,95.86,3.9,Houston,A+
+Green Valley Medical Center,Dr. Michael Brown,Male,Dermatology,41903,81.31,80.65,4.4,New York,B+
+Metro Life Hospital,Dr. Michael Brown,Female,Neurology,21431,94.69,88.41,4.3,San Diego,A
+Blue Shield Hospital,Dr. James Lee,Female,Psychiatry,35158,88.62,89.99,4.7,Los Angeles,C
+Blue Shield Hospital,Dr. John Smith,Male,Gastroenterology,37802,76.31,92.71,2.9,Phoenix,C+
+Tranquil Medical Center,Dr. Emma White,Male,Oncology,36298,92.35,83.66,3.5,San Diego,B
+Apollo Clinic,Dr. Olivia Martinez,Male,Cardiology,29737,83.04,78.94,3.4,San Diego,B
+Wellness Care,Dr. Daniel Anderson,Female,Dermatology,14948,82.64,89.16,4.4,San Antonio,B+
+Sunrise Health Care,Dr. Olivia Martinez,Female,Cardiology,33472,83.31,78.16,3.9,San Diego,A+
+Apollo Clinic,Dr. Sophia Miller,Female,Psychiatry,18609,87.79,88.16,3.2,Phoenix,C+
+Apollo Clinic,Dr. Emma White,Male,Cardiology,5391,85.44,94.67,3.5,San Jose,A+
+Metro Life Hospital,Dr. John Smith,Female,Oncology,11089,84.4,81.41,4,Los Angeles,B+
+City Hospital,Dr. John Smith,Male,Orthopedics,6865,90.42,96.98,3.7,Philadelphia,B
+Apollo Clinic,Dr. Emily Davis,Male,Dermatology,7204,85.36,97.15,3.1,San Jose,A
+Blue Shield Hospital,Dr. Emma White,Male,Orthopedics,13706,94.83,83.01,2.7,Chicago,C
+City Hospital,Dr. Emily Davis,Male,Endocrinology,26968,88.21,89.49,3.1,Phoenix,B+

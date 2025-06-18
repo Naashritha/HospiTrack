@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Patient Dashboard</h1>
+    </header>
+
+    <section class="search-container">
+        <h2>Search for Hospitals</h2>
+        <form action="/search" method="post">
+            <label for="specialty">Specialty:</label>
+            <input type="text" name="specialty" id="specialty" placeholder="Enter specialty (e.g., Cardiology)" required>
+
+            <label for="location">Location:</label>
+            <input type="text" name="location" id="location" placeholder="Enter location" required>
+
+            <label for="budget">Budget Range ($):</label>
+            <select name="budget" id="budget">
+                <option value="low">Low ($100 - $500)</option>
+                <option value="medium">Medium ($500 - $2000)</option>
+                <option value="high">High ($2000+)</option>
+            </select>
+
+            <label for="symptoms">Describe Your Symptoms/Condition:</label>
+            <textarea name="symptoms" id="symptoms" rows="3" placeholder="e.g., Chest pain, shortness of breath"></textarea>
+
+            <label for="urgency">Urgency Level:</label>
+            <select name="urgency" id="urgency">
+                <option value="emergency">Emergency</option>
+                <option value="urgent">Urgent (24-48 hrs)</option>
+                <option value="non-urgent">Non-Urgent (Later)</option>
+            </select>
+
+            <label for="appointment_time">Preferred Appointment Time:</label>
+            <input type="datetime-local" name="appointment_time" id="appointment_time">
+
+            <button type="submit">Search</button>
+        </form>
+    </section>
+</body>
+</html>

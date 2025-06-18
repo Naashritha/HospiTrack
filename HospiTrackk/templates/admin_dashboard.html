@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Administrator Dashboard</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/logout">Logout</a>
+        </nav>
+    </header>
+
+    <section class="dashboard-container">
+        <h2>System Overview</h2>
+
+        <div class="stats">
+            <div class="card">
+                <h3>Total Appointments</h3>
+                <p>{{ total_appointments }} Scheduled</p>
+            </div>
+            <div class="card">
+                <h3>Patients in Queries</h3>
+                <p>{{ patient_queries }} Inquiries</p>
+            </div>
+            <div class="card">
+                <h3>Doctors Available</h3>
+                <p>{{ doctors_available }} Active</p>
+            </div>
+        </div>
+
+        <h2>Hospital Communication - Appointment Confirmation</h2>
+        <table>
+            <tr>
+                <th>Patient Name</th>
+                <th>Doctor</th>
+                <th>Hospital</th>
+                <th>Appointment Time</th>
+                <th>Status</th>
+                <th>Update Status</th>
+            </tr>
+            {% for appointment in appointment_status %}
+            <tr>
+                <td>{{ appointment['patient_name'] }}</td>
+                <td>{{ appointment['doctor_name'] }}</td>
+                <td>{{ appointment['hospital'] }}</td>
+                <td>{{ appointment['time'] }}</td>
+                <td>{{ appointment['status'] }}</td>
+                <td>
+                    <form action="/update_appointment_status" method="post">
+                        <input type="hidden" name="appointment_id" value="{{ appointment['id'] }}">
+                        <select name="new_status">
+                            <option value="Pending">Pending</option>
+                            <option value="Confirmed">Confirmed</option>
+                            <option value="Cancelled">Cancelled</option>
+                        </select>
+                        <button type="submit">Update</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </section>
+</body>
+</html>
